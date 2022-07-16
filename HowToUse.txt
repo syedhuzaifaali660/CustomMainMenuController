@@ -1,0 +1,6 @@
+step 1: place "MenuManager" Script some where
+step 2: all of your panels place "Menu" Script
+step 3: on that "Menu Script an enum will appear select appropriate name to give to that specific panel Example-> loading screen will get enum of loading, title screen will get title of Title and so on
+step 4: to open another menu attach the "Helper_SetMenuOnButton" Script on a button on this script you have to give a enum that enum will represent the panel you want to open.
+step 5: place all of your panels which contain the "Menu" Script and give reference in "MenuManager" Scripts list. 
+PS: The panel whose reference is not in the list of menu manager will be considered  and wont be changed.
